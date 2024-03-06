@@ -6,9 +6,9 @@ class Human < Animal
   attr_accessor :name,:old_num,:syumi
   
   def initialize(name,old_num,syumi)
-    @name = name
-    @old_num = old_num
-    @syumi = syumi
+    self.name = name
+    self.old_num = old_num
+    self.syumi = syumi
   end
   
 end
